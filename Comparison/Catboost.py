@@ -5,7 +5,7 @@ from catboost import CatBoostClassifier
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score, precision_score,recall_score
-dataset = pd.read_csv('D:\\DESKTOP\\数据\\501.csv')
+dataset = pd.read_csv('D:\\DESKTOP\\dataset.csv')
 X = dataset.values[:,0:179]
 Y = dataset.values[:,179]
 test_size = 0.2
